@@ -67,15 +67,14 @@ table {
 	justify-content: space-between;
 }
 ul{
-	list-style:disc inside;
+	list-style:disc;
 }
 ol{
-	list-style: decimal inside;
+	list-style: decimal;
 	
 }
-.outside{
-	list-style-position:outside;
-	margin-left:40px
+ul,ol{
+	padding-left: 40px;
 }
 dt {
 	display: block;
@@ -87,7 +86,7 @@ dd {
 /*header styles*/
 .inside-box ul li a{
 	text-decoration: none;
-	color:#FCF3F1;
+	color:#FAFAD7;
 	font-weight: 500;
 	margin-right:40px;
 	text-transform: capitalize;
@@ -119,21 +118,24 @@ dd {
 	line-height: 1.5;
 	color:#D2CDA4;
 }
-.align-order-list{
+/* .align-order-list{
 	padding-left:20px;
 }
 .align-box2-text{
 	margin-left:80px;
-}
+} */
 .align-box3 ol{
 	list-style:none inside url(../images/2101632171556258233-20.png)
 }
-.align-box3 li{
+/* .align-box3 li{
 	padding:10px 20px;
 	
-}
+} */
 .card-1 li,.card-2 li{
 	padding:5px 0;
+}
+.card-3 li{
+	padding:12px 0;
 }
 /* article styles */
 dt,dd{
@@ -151,7 +153,7 @@ dd{
 	color:#68644F;
 }
 .offset{
-	padding-top:80px;
+	padding:60px 0px;
 }
 .remove-padding{
 	padding:0px 0px;
